@@ -1,0 +1,24 @@
+﻿<Window x:Class="DonchanOverlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TaskBarAnimation"
+        Width="850" Height="565"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize">
+
+    <Grid>
+        <Image x:Name="DonImage"
+               Stretch="Uniform"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Margin="400,0,0,10">
+            <Image.RenderTransform>
+                <ScaleTransform x:Name="FlipTransform" ScaleX="1" ScaleY="1"/>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Window>
