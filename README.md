@@ -42,9 +42,9 @@
 
 ```
 
-DonchanOverlay/
+TaskBarAnimation/
 
-&nbsp;├─ DonchanOverlay.exe
+&nbsp;├─ TaskBarAnimation.exe
 
 &nbsp;├─ config.json
 
